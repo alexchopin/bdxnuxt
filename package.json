@@ -1,0 +1,24 @@
+{
+  "name": "bdxnuxt",
+  "version": "1.0.0",
+  "description": "Atelier Nuxt.js",
+  "author": "BordeauxJS",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^4.4.0",
+    "@nuxtjs/proxy": "^1.1.4",
+    "@nuxtjs/pwa": "^2.0.5",
+    "nuxt": "^1.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
+  }
+}
